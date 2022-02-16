@@ -49,7 +49,7 @@ int main()
 	t.set_font(Font::times_bold);
 	t.set_font_size(20);
 
-	Image ii {Point{100,100}, "valhalla.jpg"};
+	Image ii {Point{100,100}, "avengers.jpg"};
 
 	Circle c {Point{700,700}, 100};
 
