@@ -12,8 +12,8 @@ int main()
 {
     using namespace Graph_lib;
 
-    int xmax = 1280;
-    int ymax = 720;
+    int xmax = 600;
+    int ymax = 400;
 
     int x_orig = xmax/2;
     int y_orig = ymax/2;
@@ -42,19 +42,19 @@ int main()
 
 	Rectangle r {Point{200,200}, 100, 50};
 
-	r.set_fill_color(Color::yellow);
+	r.set_fill_color(Color::blue);
 	r.set_style(Line_style(Line_style::dash, 4));
 
 	Text t {Point{200,400}, "Hello graphics!"};
 	t.set_font(Font::times_bold);
 	t.set_font_size(20);
 
-	Image ii {Point{100,100}, "badge.jpg"};
+	Image ii {Point{100,100}, "valhalla.jpg"};
 
 	Circle c {Point{700,700}, 100};
 
 	Ellipse e {Point{500,500}, 100, 50};
-	e.set_fill_color(Color::red);
+	e.set_fill_color(Color::yellow);
 
 	win.attach(e);
 	win.attach(ii);
