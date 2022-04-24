@@ -119,11 +119,6 @@ try {
 
 	cout << endl;	
 
-
-
-// setw)(szam)
-
-
 	Matrix<complex <double>> mcomp(10);
 
 	cout << "10 comp numb (re, im):" << endl;
